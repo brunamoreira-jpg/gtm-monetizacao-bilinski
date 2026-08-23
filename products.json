@@ -1,0 +1,1468 @@
+[
+  {
+    "id": "R01",
+    "type": "recorrente",
+    "name": "Acquisition",
+    "territory": "aquisicao",
+    "tag": "Demanda previsível",
+    "desc": "Operação de aquisição para gerar demanda, leads, oportunidades ou vendas com previsibilidade.",
+    "when": [
+      "Aquisição depende de indicação",
+      "Faltam leads ou oportunidades",
+      "Existe verba, mas a operação não escala",
+      "CAC e volume de demanda não são previsíveis"
+    ],
+    "impact": [
+      "Mais demanda",
+      "Controle de CAC",
+      "Mais oportunidades",
+      "Previsibilidade comercial"
+    ],
+    "why": "Venda quando a trava está antes da venda: falta volume qualificado entrando no funil. O produto organiza canal, mídia e otimização para transformar investimento em demanda mensurável.",
+    "talk": "Vamos estruturar aquisição para gerar demanda com previsibilidade, acompanhando os indicadores que conectam mídia a oportunidade e receita.",
+    "plans": {
+      "basico": {
+        "price": 3490,
+        "label": "Básico",
+        "lines": [
+          "1 canal",
+          "Gestão de mídia",
+          "Otimização contínua",
+          "Indicadores e reunião mensal"
+        ]
+      },
+      "medio": {
+        "price": 5490,
+        "label": "Médio",
+        "lines": [
+          "Até 2 canais",
+          "Remarketing",
+          "Testes de campanha",
+          "Otimização de funil",
+          "Reunião quinzenal"
+        ]
+      },
+      "avancado": {
+        "price": 8490,
+        "label": "Avançado",
+        "lines": [
+          "Multicanal",
+          "Estratégia full funnel",
+          "CRO",
+          "Forecast",
+          "Testes estruturados",
+          "Acompanhamento semanal"
+        ]
+      }
+    },
+    "notes": "Verba de mídia não inclusa. Contrato recorrente sugerido com mínimo de 3 meses.",
+    "next": [
+      "R02",
+      "P03",
+      "R04"
+    ]
+  },
+  {
+    "id": "R02",
+    "type": "recorrente",
+    "name": "Creative Performance",
+    "territory": "aquisicao",
+    "tag": "Criatividade que performa",
+    "desc": "Produção contínua de criativos orientada a CTR, CPL, CPA, conversão e vendas.",
+    "when": [
+      "CTR em queda",
+      "CPL aumentando",
+      "Fadiga criativa",
+      "Gestor de tráfego sem volume para testar"
+    ],
+    "impact": [
+      "Mais testes",
+      "Menor fadiga",
+      "Melhor CTR",
+      "Mais capacidade de otimização"
+    ],
+    "why": "Venda quando a mídia está limitada pela oferta criativa. O objetivo não é produzir peças por volume, mas aumentar a velocidade de aprendizagem da conta.",
+    "talk": "Vamos transformar criativo em variável de performance, com volume, variação e análise suficientes para a mídia aprender mais rápido.",
+    "plans": {
+      "basico": {
+        "price": 2490,
+        "label": "Básico",
+        "lines": [
+          "Até 8 peças/mês",
+          "Copy e design",
+          "Leitura de performance"
+        ]
+      },
+      "medio": {
+        "price": 4490,
+        "label": "Médio",
+        "lines": [
+          "Até 16 peças/mês",
+          "Variações de ângulo",
+          "Rotina de testes"
+        ]
+      },
+      "avancado": {
+        "price": 6990,
+        "label": "Avançado",
+        "lines": [
+          "Até 30 peças/mês",
+          "Vídeos",
+          "Matriz de testes",
+          "Análise criativa"
+        ]
+      }
+    },
+    "notes": "Foco em performance, não em calendário editorial.",
+    "next": [
+      "R01",
+      "P06",
+      "P03"
+    ]
+  },
+  {
+    "id": "R03",
+    "type": "recorrente",
+    "name": "Social Media Growth",
+    "territory": "aquisicao",
+    "tag": "Autoridade e demanda",
+    "desc": "Operação recorrente de conteúdo para elevar autoridade, confiança e suporte à aquisição.",
+    "when": [
+      "Instagram abandonado",
+      "Marca fraca",
+      "Dependência exclusiva de mídia paga",
+      "Baixa percepção de valor"
+    ],
+    "impact": [
+      "Mais autoridade",
+      "Presença digital",
+      "Confiança",
+      "Demanda assistida"
+    ],
+    "why": "Venda quando a ausência de marca e conteúdo reduz confiança, resposta da mídia ou percepção de valor.",
+    "talk": "Vamos construir presença que sustenta aquisição, encurta a confiança e aumenta a percepção de valor antes da conversa comercial.",
+    "plans": {
+      "basico": {
+        "price": 2990,
+        "label": "Básico",
+        "lines": [
+          "8 conteúdos/mês",
+          "Copy",
+          "Design"
+        ]
+      },
+      "medio": {
+        "price": 4990,
+        "label": "Médio",
+        "lines": [
+          "12 conteúdos",
+          "4 vídeos",
+          "Planejamento editorial"
+        ]
+      },
+      "avancado": {
+        "price": 7490,
+        "label": "Avançado",
+        "lines": [
+          "20 conteúdos",
+          "8 vídeos",
+          "Estratégia editorial",
+          "Análise de performance"
+        ]
+      }
+    },
+    "notes": "Operação de conteúdo orientada a crescimento.",
+    "next": [
+      "R01",
+      "R02",
+      "P02"
+    ]
+  },
+  {
+    "id": "R04",
+    "type": "recorrente",
+    "name": "Sales Performance",
+    "territory": "conversao",
+    "tag": "Treino que vira conversão",
+    "desc": "Programa recorrente de desenvolvimento comercial com treinamento e roleplays.",
+    "when": [
+      "Leads chegam, mas não fecham",
+      "Objeções derrubam vendas",
+      "Discovery ruim",
+      "Follow-up inconsistente",
+      "Diferença grande entre vendedores"
+    ],
+    "impact": [
+      "Maior conversão",
+      "Melhor discovery",
+      "Menos perda por objeção",
+      "Mais consistência no time"
+    ],
+    "why": "Venda quando a receita já chega ao comercial, mas a equipe não converte com consistência. É uma alavanca de receita sem necessariamente aumentar mídia.",
+    "talk": "Vamos aumentar a eficiência dos leads que já existem, treinando discovery, objeções, negociação, fechamento e follow-up com prática recorrente.",
+    "plans": {
+      "basico": {
+        "price": 2490,
+        "label": "Básico",
+        "lines": [
+          "4h/mês",
+          "Roleplays",
+          "Feedback prático"
+        ]
+      },
+      "medio": {
+        "price": 4490,
+        "label": "Médio",
+        "lines": [
+          "8h/mês",
+          "Roleplays",
+          "Rotina de melhoria"
+        ]
+      },
+      "avancado": {
+        "price": 6990,
+        "label": "Avançado",
+        "lines": [
+          "16h/mês",
+          "Score individual",
+          "Plano de desenvolvimento"
+        ]
+      }
+    },
+    "notes": "Pode trabalhar discovery, qualificação, pitch, objeções, negociação, fechamento e follow-up.",
+    "next": [
+      "P04",
+      "R07",
+      "R10"
+    ]
+  },
+  {
+    "id": "R05",
+    "type": "recorrente",
+    "name": "CS & Retention",
+    "territory": "retencao",
+    "tag": "Proteção de receita",
+    "desc": "Estruturação e acompanhamento de Customer Success para reduzir churn e elevar LTV.",
+    "when": [
+      "Churn crescente",
+      "Renovação baixa",
+      "CS apagando incêndio",
+      "Cliente demora a perceber valor",
+      "Carteira sem health score"
+    ],
+    "impact": [
+      "Menor churn",
+      "Maior LTV",
+      "Mais renovação",
+      "Previsibilidade da carteira"
+    ],
+    "why": "Venda quando a empresa já sabe vender, mas perde valor depois da aquisição. Retenção protege a receita que já foi conquistada.",
+    "talk": "Vamos transformar CS em uma operação de retenção, com jornada, indicadores e gestão ativa da saúde da carteira.",
+    "plans": {
+      "basico": {
+        "price": 3490,
+        "label": "Básico",
+        "lines": [
+          "Jornada",
+          "Onboarding",
+          "Carteira e indicadores"
+        ]
+      },
+      "medio": {
+        "price": 5990,
+        "label": "Médio",
+        "lines": [
+          "Health Score",
+          "NPS/CES",
+          "Renovação",
+          "Rituais"
+        ]
+      },
+      "avancado": {
+        "price": 8990,
+        "label": "Avançado",
+        "lines": [
+          "QBR",
+          "Forecast de churn",
+          "Account planning",
+          "Estratégia de expansão"
+        ]
+      }
+    },
+    "notes": "Onboarding está incorporado nesta frente recorrente.",
+    "next": [
+      "P07",
+      "R06",
+      "R10"
+    ]
+  },
+  {
+    "id": "R06",
+    "type": "recorrente",
+    "name": "Expansion Engine",
+    "territory": "monetizacao",
+    "tag": "Mais receita da carteira",
+    "desc": "Operação para gerar upsell, cross-sell, recompra e expansão dentro da base atual.",
+    "when": [
+      "Carteira boa, mas ticket estagnado",
+      "Empresa vende uma única vez",
+      "Não existe upsell ou cross-sell",
+      "NRR baixo"
+    ],
+    "impact": [
+      "Mais ticket",
+      "Maior LTV",
+      "Mais receita da base",
+      "NRR maior"
+    ],
+    "why": "Venda quando o cliente já possui ativos valiosos na carteira, mas não tem uma máquina para capturar oportunidades de expansão.",
+    "talk": "Vamos transformar a carteira atual em um canal de crescimento, criando segmentação, ofertas, pipeline e cadência de expansão.",
+    "plans": {
+      "basico": {
+        "price": 3490,
+        "label": "Básico",
+        "lines": [
+          "Mapeamento de oportunidades",
+          "Campanha mensal"
+        ]
+      },
+      "medio": {
+        "price": 5990,
+        "label": "Médio",
+        "lines": [
+          "Segmentação",
+          "Ofertas",
+          "Scripts",
+          "Pipeline",
+          "Campanhas"
+        ]
+      },
+      "avancado": {
+        "price": 8990,
+        "label": "Avançado",
+        "lines": [
+          "Account planning",
+          "CRM",
+          "Automações",
+          "Campanhas",
+          "Forecast de expansão"
+        ]
+      }
+    },
+    "notes": "Foco em NRR, ticket, LTV e monetização da base.",
+    "next": [
+      "P09",
+      "P10",
+      "P11"
+    ]
+  },
+  {
+    "id": "R07",
+    "type": "recorrente",
+    "name": "RevOps",
+    "territory": "gestao",
+    "tag": "Uma operação de receita",
+    "desc": "Integra marketing, vendas, CS, expansão, dados e CRM em uma governança de receita.",
+    "when": [
+      "Marketing culpa vendas",
+      "Vendas reclama dos leads",
+      "CS não sabe o que foi vendido",
+      "Números não são confiáveis",
+      "Cada área usa uma planilha"
+    ],
+    "impact": [
+      "Menos perda entre etapas",
+      "Mais previsibilidade",
+      "Governança de dados",
+      "Integração entre times"
+    ],
+    "why": "Venda quando as áreas crescem separadas e a empresa perde receita nos handoffs, nos dados e nas prioridades.",
+    "talk": "Vamos conectar marketing, vendas e CS em um sistema de receita com SLAs, indicadores, CRM, forecast e governança.",
+    "plans": {
+      "basico": {
+        "price": 4490,
+        "label": "Básico",
+        "lines": [
+          "Funil",
+          "Indicadores",
+          "CRM",
+          "Reunião mensal"
+        ]
+      },
+      "medio": {
+        "price": 7490,
+        "label": "Médio",
+        "lines": [
+          "SLAs",
+          "Dashboards",
+          "Forecast",
+          "Automações"
+        ]
+      },
+      "avancado": {
+        "price": 11990,
+        "label": "Avançado",
+        "lines": [
+          "Revenue Operations completo",
+          "Governança semanal",
+          "Gestão integrada"
+        ]
+      }
+    },
+    "notes": "Produto estrutural para operações que já possuem múltiplos times.",
+    "next": [
+      "P12",
+      "R09",
+      "R10"
+    ]
+  },
+  {
+    "id": "R08",
+    "type": "recorrente",
+    "name": "People & Performance",
+    "territory": "gestao",
+    "tag": "Capacidade de execução",
+    "desc": "RH estratégico orientado a papéis, performance, desenvolvimento, cultura e liderança.",
+    "when": [
+      "Papéis confusos",
+      "Performance não é medida",
+      "Gestores fracos",
+      "Empresa depende do fundador",
+      "Onboarding de pessoas inconsistente"
+    ],
+    "impact": [
+      "Mais produtividade",
+      "Gestores melhores",
+      "Mais clareza de papel",
+      "Menor dependência do fundador"
+    ],
+    "why": "Venda quando o crescimento está limitado pela capacidade do time, não por falta de oportunidade comercial.",
+    "talk": "Vamos organizar papéis, scorecards, feedback, desenvolvimento e cultura para aumentar a capacidade real de execução da empresa.",
+    "plans": {
+      "basico": {
+        "price": 3490,
+        "label": "Básico",
+        "lines": [
+          "Estrutura",
+          "Papéis",
+          "Scorecards",
+          "Acompanhamento"
+        ]
+      },
+      "medio": {
+        "price": 5990,
+        "label": "Médio",
+        "lines": [
+          "1:1",
+          "Feedback",
+          "Performance",
+          "Desenvolvimento"
+        ]
+      },
+      "avancado": {
+        "price": 8990,
+        "label": "Avançado",
+        "lines": [
+          "People OS",
+          "Cultura",
+          "Liderança",
+          "People Analytics"
+        ]
+      }
+    },
+    "notes": "Não inclui RH administrativo ou folha de pagamento.",
+    "next": [
+      "P14",
+      "P15",
+      "R09"
+    ]
+  },
+  {
+    "id": "R09",
+    "type": "recorrente",
+    "name": "Rituals as a Service",
+    "territory": "gestao",
+    "tag": "Cadência de execução",
+    "desc": "Implementação e facilitação contínua dos rituais de gestão do cliente.",
+    "when": [
+      "Reuniões demais e pouca execução",
+      "Indicadores não são acompanhados",
+      "Responsáveis não são cobrados",
+      "Prioridades mudam toda semana"
+    ],
+    "impact": [
+      "Mais disciplina",
+      "Prioridade clara",
+      "Accountability",
+      "Ritmo de gestão"
+    ],
+    "why": "Venda quando a empresa sabe o que deveria fazer, mas não possui uma cadência que transforma prioridade em execução.",
+    "talk": "Vamos instalar uma rotina de gestão simples e disciplinada, com rituais, responsáveis, indicadores e decisões claras.",
+    "plans": {
+      "basico": {
+        "price": 2490,
+        "label": "Básico",
+        "lines": [
+          "4h/mês",
+          "Rituais prioritários"
+        ]
+      },
+      "medio": {
+        "price": 4490,
+        "label": "Médio",
+        "lines": [
+          "8h/mês",
+          "Facilitação e acompanhamento"
+        ]
+      },
+      "avancado": {
+        "price": 6990,
+        "label": "Avançado",
+        "lines": [
+          "16h/mês",
+          "Sistema completo de rituais"
+        ]
+      }
+    },
+    "notes": "Pode envolver Daily, Weekly, 1:1, All Hands, Monthly Review, QBR e retrospectivas.",
+    "next": [
+      "P13",
+      "R08",
+      "R10"
+    ]
+  },
+  {
+    "id": "R10",
+    "type": "recorrente",
+    "name": "Growth Advisor",
+    "territory": "gestao",
+    "tag": "Direção executiva",
+    "desc": "Consultoria executiva recorrente para empresas com execução interna e necessidade de direção estratégica.",
+    "when": [
+      "Time executa, mas falta direção",
+      "Sócios precisam priorizar melhor",
+      "Crescimento perdeu foco",
+      "Decisões demoram ou não têm dono"
+    ],
+    "impact": [
+      "Mais clareza",
+      "Prioridade",
+      "Accountability",
+      "Velocidade de crescimento"
+    ],
+    "why": "Venda quando o cliente já possui pessoas capazes de executar, mas precisa de visão externa, priorização e cobrança para acelerar crescimento.",
+    "talk": "Vamos atuar como advisor de crescimento conectando aquisição, vendas, retenção, monetização e gestão em uma agenda executiva de prioridades.",
+    "plans": {
+      "basico": {
+        "price": 4990,
+        "label": "Básico",
+        "lines": [
+          "4h/mês",
+          "Agenda executiva"
+        ]
+      },
+      "medio": {
+        "price": 7990,
+        "label": "Médio",
+        "lines": [
+          "8h/mês",
+          "Acompanhamento estratégico"
+        ]
+      },
+      "avancado": {
+        "price": 12990,
+        "label": "Avançado",
+        "lines": [
+          "16h/mês",
+          "Direção executiva intensiva"
+        ]
+      }
+    },
+    "notes": "Produto premium para empresas que já possuem capacidade de execução.",
+    "next": [
+      "R07",
+      "R06",
+      "R08"
+    ]
+  },
+  {
+    "id": "P01",
+    "type": "pontual",
+    "name": "Revenue Diagnostic",
+    "territory": "gestao",
+    "tag": "Descobrir a trava",
+    "desc": "Diagnóstico de aquisição, conversão, retenção, monetização e gestão para descobrir onde a receita está travada.",
+    "when": [
+      "Cliente sente problema, mas não sabe a causa",
+      "Indicadores contam histórias diferentes",
+      "Não existe prioridade clara"
+    ],
+    "impact": [
+      "Clareza",
+      "Priorização",
+      "Roadmap",
+      "Entrada para recorrência"
+    ],
+    "why": "Venda quando ainda é cedo para prescrever uma solução. O diagnóstico identifica a alavanca mais relevante e transforma incerteza em plano de ação.",
+    "talk": "Antes de vender uma solução grande, vamos identificar exatamente onde a receita está travada e qual intervenção tem maior potencial de impacto.",
+    "plans": {
+      "basico": {
+        "price": 1990,
+        "label": "Básico",
+        "lines": [
+          "4h",
+          "Diagnóstico executivo"
+        ]
+      },
+      "medio": {
+        "price": 3990,
+        "label": "Médio",
+        "lines": [
+          "8h",
+          "Diagnóstico",
+          "Plano de ação"
+        ]
+      },
+      "avancado": {
+        "price": 6990,
+        "label": "Avançado",
+        "lines": [
+          "16h",
+          "Diagnóstico completo",
+          "Roadmap de 90 dias"
+        ]
+      }
+    },
+    "notes": "Conversão natural: diagnóstico para produto recorrente adequado.",
+    "next": [
+      "R01",
+      "R05",
+      "R07"
+    ]
+  },
+  {
+    "id": "P02",
+    "type": "pontual",
+    "name": "GTM & Offer Sprint",
+    "territory": "aquisicao",
+    "tag": "Oferta e entrada no mercado",
+    "desc": "Sprint para definir ICP, oferta, pricing, mensagem, canais e plano de entrada no mercado.",
+    "when": [
+      "Cliente não sabe o que vender",
+      "ICP confuso",
+      "Oferta não diferencia",
+      "Pricing sem lógica",
+      "Entrada no mercado desorganizada"
+    ],
+    "impact": [
+      "Oferta mais forte",
+      "Mensagem clara",
+      "Maior capacidade de vender",
+      "Plano de 90 dias"
+    ],
+    "why": "Venda quando o problema vem antes da mídia: a empresa ainda não possui uma oferta clara o bastante para escalar aquisição.",
+    "talk": "Vamos organizar ICP, oferta, pricing e mensagem para colocar no mercado uma proposta mais fácil de entender, comprar e escalar.",
+    "plans": {
+      "basico": {
+        "price": 3490,
+        "label": "Básico",
+        "lines": [
+          "ICP",
+          "Oferta"
+        ]
+      },
+      "medio": {
+        "price": 5990,
+        "label": "Médio",
+        "lines": [
+          "ICP",
+          "Oferta",
+          "Pricing",
+          "Mensagem"
+        ]
+      },
+      "avancado": {
+        "price": 8990,
+        "label": "Avançado",
+        "lines": [
+          "GTM completo",
+          "Canais",
+          "Funil",
+          "Plano de 90 dias"
+        ]
+      }
+    },
+    "notes": "Boa porta de entrada para Acquisition e Creative Performance.",
+    "next": [
+      "R01",
+      "R02",
+      "R03"
+    ]
+  },
+  {
+    "id": "P03",
+    "type": "pontual",
+    "name": "Funnel & Conversion Sprint",
+    "territory": "conversao",
+    "tag": "Mais conversão",
+    "desc": "Auditoria e construção de ativos de conversão para tráfego que ainda não transforma visita em oportunidade.",
+    "when": [
+      "Tráfego existe, mas não converte",
+      "Landing page fraca",
+      "Tracking incompleto",
+      "Abandono alto"
+    ],
+    "impact": [
+      "Melhor taxa de conversão",
+      "Melhor leitura de dados",
+      "Menor desperdício de mídia"
+    ],
+    "why": "Venda quando a empresa já compra atenção, mas perde valor na transição entre clique e oportunidade.",
+    "talk": "Vamos corrigir os pontos do funil que estão desperdiçando a demanda já comprada, melhorando página, mensagem, tracking e automação.",
+    "plans": {
+      "basico": {
+        "price": 2490,
+        "label": "Básico",
+        "lines": [
+          "Auditoria",
+          "Otimizações prioritárias"
+        ]
+      },
+      "medio": {
+        "price": 4990,
+        "label": "Médio",
+        "lines": [
+          "Nova LP",
+          "Copy",
+          "Tracking"
+        ]
+      },
+      "avancado": {
+        "price": 7990,
+        "label": "Avançado",
+        "lines": [
+          "Funil completo",
+          "LP",
+          "Automações",
+          "Tracking"
+        ]
+      }
+    },
+    "notes": "Conecta aquisição, CRO e vendas.",
+    "next": [
+      "R01",
+      "R04",
+      "R07"
+    ]
+  },
+  {
+    "id": "P04",
+    "type": "pontual",
+    "name": "Sales Machine Sprint",
+    "territory": "conversao",
+    "tag": "Processo comercial",
+    "desc": "Estruturação pontual de pipeline, etapas, CRM, scripts, cadência, follow-up, SLA e indicadores.",
+    "when": [
+      "Comercial depende de pessoas",
+      "Pipeline não tem padrão",
+      "Follow-up morre",
+      "CRM não representa processo"
+    ],
+    "impact": [
+      "Mais controle",
+      "Melhor conversão",
+      "Processo replicável",
+      "Visibilidade de pipeline"
+    ],
+    "why": "Venda quando o time comercial até vende, mas não existe processo que permita repetir, medir e melhorar.",
+    "talk": "Vamos transformar o comercial em processo, com etapas, CRM, scripts, cadência, follow-up e indicadores claros.",
+    "plans": {
+      "basico": {
+        "price": 3990,
+        "label": "Básico",
+        "lines": [
+          "Pipeline",
+          "Etapas",
+          "Scripts essenciais"
+        ]
+      },
+      "medio": {
+        "price": 6490,
+        "label": "Médio",
+        "lines": [
+          "Pipeline",
+          "CRM",
+          "Cadência",
+          "Follow-up",
+          "Indicadores"
+        ]
+      },
+      "avancado": {
+        "price": 9990,
+        "label": "Avançado",
+        "lines": [
+          "Máquina comercial completa",
+          "SLAs",
+          "Dashboards",
+          "Governança inicial"
+        ]
+      }
+    },
+    "notes": "Excelente entrada para Sales Performance e RevOps.",
+    "next": [
+      "R04",
+      "R07",
+      "P05"
+    ]
+  },
+  {
+    "id": "P05",
+    "type": "pontual",
+    "name": "Roleplay Bootcamp",
+    "territory": "conversao",
+    "tag": "Treino intensivo",
+    "desc": "Treinamento pontual com roleplays para elevar habilidade comercial em situações reais.",
+    "when": [
+      "Objeções derrubam vendas",
+      "Pitch inconsistente",
+      "Vendedores inseguros",
+      "Nova equipe comercial"
+    ],
+    "impact": [
+      "Melhor execução",
+      "Mais confiança",
+      "Feedback rápido",
+      "Conversão mais consistente"
+    ],
+    "why": "Venda como intervenção rápida quando existe uma lacuna evidente de habilidade comercial.",
+    "talk": "Vamos simular as conversas que mais derrubam venda e treinar a equipe com feedback prático e aplicação imediata.",
+    "plans": {
+      "basico": {
+        "price": 1490,
+        "label": "Básico",
+        "lines": [
+          "2h de treinamento"
+        ]
+      },
+      "medio": {
+        "price": 2990,
+        "label": "Médio",
+        "lines": [
+          "4h de treinamento"
+        ]
+      },
+      "avancado": {
+        "price": 4990,
+        "label": "Avançado",
+        "lines": [
+          "8h",
+          "Avaliação individual",
+          "Score dos vendedores"
+        ]
+      }
+    },
+    "notes": "Pode evoluir para Sales Performance recorrente.",
+    "next": [
+      "R04",
+      "P04",
+      "R07"
+    ]
+  },
+  {
+    "id": "P06",
+    "type": "pontual",
+    "name": "Creative Sprint",
+    "territory": "aquisicao",
+    "tag": "Volume criativo rápido",
+    "desc": "Produção concentrada de criativos para campanhas que precisam de volume e variação em curto prazo.",
+    "when": [
+      "Campanha sem peças suficientes",
+      "Fadiga criativa",
+      "Lançamento ou ação promocional",
+      "Time interno sem capacidade"
+    ],
+    "impact": [
+      "Mais testes",
+      "Velocidade de campanha",
+      "Mais variações",
+      "Menos fadiga"
+    ],
+    "why": "Venda quando a necessidade é imediata e o gargalo é capacidade criativa, não necessariamente uma operação recorrente.",
+    "talk": "Vamos gerar rapidamente um estoque de criativos orientados a campanha para ampliar testes e reduzir fadiga.",
+    "plans": {
+      "basico": {
+        "price": 1990,
+        "label": "Básico",
+        "lines": [
+          "10 peças"
+        ]
+      },
+      "medio": {
+        "price": 3490,
+        "label": "Médio",
+        "lines": [
+          "20 peças"
+        ]
+      },
+      "avancado": {
+        "price": 5990,
+        "label": "Avançado",
+        "lines": [
+          "40 peças",
+          "Estratégia criativa"
+        ]
+      }
+    },
+    "notes": "Boa entrada para Creative Performance.",
+    "next": [
+      "R02",
+      "R01",
+      "P03"
+    ]
+  },
+  {
+    "id": "P07",
+    "type": "pontual",
+    "name": "Churn Reduction Sprint",
+    "territory": "retencao",
+    "tag": "Reduzir perda de clientes",
+    "desc": "Sprint para identificar causas de churn e construir o plano de retenção.",
+    "when": [
+      "Churn subiu",
+      "Cancelamentos sem padrão aparente",
+      "Clientes não percebem valor",
+      "Renovação caiu"
+    ],
+    "impact": [
+      "Causa raiz do churn",
+      "Plano de retenção",
+      "Menor perda de receita"
+    ],
+    "why": "Venda quando a empresa percebe o sintoma, mas ainda não possui diagnóstico e sistema para reduzir cancelamentos.",
+    "talk": "Vamos entender por que os clientes estão saindo e transformar as causas em ações, jornada, health score e playbook de retenção.",
+    "plans": {
+      "basico": {
+        "price": 2490,
+        "label": "Básico",
+        "lines": [
+          "Análise de churn"
+        ]
+      },
+      "medio": {
+        "price": 4990,
+        "label": "Médio",
+        "lines": [
+          "Diagnóstico",
+          "Entrevistas",
+          "Causas",
+          "Plano"
+        ]
+      },
+      "avancado": {
+        "price": 7990,
+        "label": "Avançado",
+        "lines": [
+          "Tudo anterior",
+          "Jornada",
+          "Health Score",
+          "Playbook de retenção"
+        ]
+      }
+    },
+    "notes": "Converte naturalmente para CS & Retention.",
+    "next": [
+      "R05",
+      "R06",
+      "R10"
+    ]
+  },
+  {
+    "id": "P08",
+    "type": "pontual",
+    "name": "Black Friday Growth Sprint",
+    "territory": "monetizacao",
+    "tag": "Revenue Mode",
+    "desc": "Operação sazonal para transformar Black Friday em uma campanha integrada de receita, não apenas desconto.",
+    "when": [
+      "B2C, e-commerce, varejo ou serviço promocional",
+      "Existe base de leads ou clientes",
+      "Cliente investe em mídia",
+      "Precisa estruturar oferta, campanha e remarketing",
+      "Estoque precisa girar"
+    ],
+    "impact": [
+      "Mais faturamento",
+      "Mais conversão",
+      "Reativação da base",
+      "Ticket maior",
+      "Giro de estoque"
+    ],
+    "why": "Venda entre agosto e novembro para clientes que podem transformar a janela de alta intenção em receita com oferta, mídia, base, conversão e remarketing coordenados.",
+    "talk": "Vamos tratar a Black Friday como uma operação de receita, conectando metas, ofertas, mídia, base, conversão e otimização durante o período.",
+    "plans": {
+      "basico": {
+        "price": 4990,
+        "label": "Básico",
+        "lines": [
+          "Diagnóstico",
+          "Oferta principal",
+          "Calendário",
+          "Pré-BF",
+          "Remarketing",
+          "Até 10 criativos",
+          "Copies",
+          "Plano de mídia",
+          "2 reuniões"
+        ]
+      },
+      "medio": {
+        "price": 7990,
+        "label": "Médio",
+        "lines": [
+          "Tudo do Básico",
+          "Aquecimento",
+          "Lista VIP",
+          "Reativação",
+          "Bundles",
+          "Até 20 criativos",
+          "E-mails",
+          "LP",
+          "Tracking",
+          "Dashboard",
+          "Até 4 reuniões"
+        ]
+      },
+      "avancado": {
+        "price": 12990,
+        "label": "Avançado",
+        "lines": [
+          "Tudo do Médio",
+          "Metas e forecast",
+          "Arquitetura de ofertas",
+          "Upsell e cross-sell",
+          "Segmentação completa",
+          "Até 40 peças",
+          "CRO",
+          "Recuperação de abandono",
+          "Sala de situação",
+          "Relatório executivo"
+        ]
+      }
+    },
+    "notes": "Produto sazonal prioritário de agosto a novembro. Abre recorrências no pós-Black Friday.",
+    "next": [
+      "P09",
+      "R02",
+      "R01",
+      "R06"
+    ]
+  },
+  {
+    "id": "P09",
+    "type": "pontual",
+    "name": "Base Reactivation Sprint",
+    "territory": "monetizacao",
+    "tag": "Receita sem nova aquisição",
+    "desc": "Reativação de leads antigos, propostas perdidas, clientes inativos e ex-clientes.",
+    "when": [
+      "Base grande parada",
+      "Muitas propostas perdidas",
+      "Clientes inativos",
+      "Follow-up histórico inexistente"
+    ],
+    "impact": [
+      "Receita sem aumentar aquisição",
+      "Recuperação de oportunidades",
+      "Base mais ativa"
+    ],
+    "why": "Venda quando o cliente já pagou para construir uma base e ainda existe valor não capturado nela.",
+    "talk": "Vamos recuperar valor da base existente antes de pedir mais investimento em aquisição, segmentando e reativando oportunidades com maior potencial.",
+    "plans": {
+      "basico": {
+        "price": 2990,
+        "label": "Básico",
+        "lines": [
+          "Até 1.000 contatos"
+        ]
+      },
+      "medio": {
+        "price": 4990,
+        "label": "Médio",
+        "lines": [
+          "Até 5.000 contatos",
+          "Segmentação"
+        ]
+      },
+      "avancado": {
+        "price": 7990,
+        "label": "Avançado",
+        "lines": [
+          "Base ampla",
+          "Segmentação",
+          "Automação",
+          "Operação"
+        ]
+      }
+    },
+    "notes": "Prioridade de monetização quando existe base ociosa.",
+    "next": [
+      "P10",
+      "R06",
+      "R07"
+    ]
+  },
+  {
+    "id": "P10",
+    "type": "pontual",
+    "name": "Upsell & Cross-sell Sprint",
+    "territory": "monetizacao",
+    "tag": "Expandir ticket",
+    "desc": "Sprint para criar oportunidades de receita adicional dentro da carteira atual.",
+    "when": [
+      "Clientes compram uma vez",
+      "Ticket não cresce",
+      "Não existem ofertas de expansão",
+      "Equipe não aborda cross-sell"
+    ],
+    "impact": [
+      "Receita rápida",
+      "Ticket maior",
+      "Mais LTV",
+      "Expansão da carteira"
+    ],
+    "why": "Venda quando a carteira tem espaço de compra adicional, mas não existe oferta, segmentação, script e pipeline para capturar esse potencial.",
+    "talk": "Vamos mapear oportunidades de expansão dentro da base e transformar isso em ofertas, campanha, scripts e pipeline comercial.",
+    "plans": {
+      "basico": {
+        "price": 2990,
+        "label": "Básico",
+        "lines": [
+          "Mapeamento",
+          "Oferta prioritária"
+        ]
+      },
+      "medio": {
+        "price": 4990,
+        "label": "Médio",
+        "lines": [
+          "Segmentação",
+          "Oferta",
+          "Campanha",
+          "Scripts"
+        ]
+      },
+      "avancado": {
+        "price": 7990,
+        "label": "Avançado",
+        "lines": [
+          "Segmentação",
+          "Oferta",
+          "Campanha",
+          "Scripts",
+          "Pipeline",
+          "Playbook"
+        ]
+      }
+    },
+    "notes": "Converte para Expansion Engine recorrente.",
+    "next": [
+      "R06",
+      "P11",
+      "R07"
+    ]
+  },
+  {
+    "id": "P11",
+    "type": "pontual",
+    "name": "Pricing & Packaging",
+    "territory": "monetizacao",
+    "tag": "Preço, margem e pacote",
+    "desc": "Estruturação de pricing, ancoragem, planos, bundles, upsell, cross-sell e recorrência.",
+    "when": [
+      "Ticket baixo",
+      "Margem ruim",
+      "Planos confusos",
+      "Desconto virou regra",
+      "Oferta sem ancoragem"
+    ],
+    "impact": [
+      "Ticket maior",
+      "Margem melhor",
+      "Oferta mais clara",
+      "Mais monetização"
+    ],
+    "why": "Venda quando o produto é bom, mas o modelo de captura de valor está deixando dinheiro na mesa.",
+    "talk": "Vamos reorganizar preço, planos e pacotes para melhorar percepção de valor, margem e potencial de expansão.",
+    "plans": {
+      "basico": {
+        "price": 2990,
+        "label": "Básico",
+        "lines": [
+          "Diagnóstico de pricing",
+          "Recomendação de preço"
+        ]
+      },
+      "medio": {
+        "price": 4990,
+        "label": "Médio",
+        "lines": [
+          "Pricing",
+          "Planos",
+          "Ancoragem",
+          "Bundles"
+        ]
+      },
+      "avancado": {
+        "price": 7490,
+        "label": "Avançado",
+        "lines": [
+          "Arquitetura completa",
+          "Upsell",
+          "Cross-sell",
+          "Recorrência",
+          "Packaging"
+        ]
+      }
+    },
+    "notes": "Pode anteceder GTM & Offer ou Expansion Engine.",
+    "next": [
+      "R06",
+      "P02",
+      "P10"
+    ]
+  },
+  {
+    "id": "P12",
+    "type": "pontual",
+    "name": "CRM & RevOps Setup",
+    "territory": "gestao",
+    "tag": "Infra de receita",
+    "desc": "Setup de pipeline, CRM, automações, dashboards, SLAs e governança inicial.",
+    "when": [
+      "CRM existe, mas não é usado",
+      "Pipeline não representa a operação",
+      "Dados fragmentados",
+      "Handoffs sem SLA"
+    ],
+    "impact": [
+      "Mais visibilidade",
+      "Dados confiáveis",
+      "Processo integrado",
+      "Base para forecast"
+    ],
+    "why": "Venda quando a operação precisa de infraestrutura mínima para medir e coordenar receita.",
+    "talk": "Vamos colocar CRM e processo para trabalhar juntos, conectando pipeline, automações, dashboards e SLAs.",
+    "plans": {
+      "basico": {
+        "price": 3490,
+        "label": "Básico",
+        "lines": [
+          "Pipeline",
+          "Configuração CRM"
+        ]
+      },
+      "medio": {
+        "price": 5990,
+        "label": "Médio",
+        "lines": [
+          "Pipeline",
+          "CRM",
+          "Automações",
+          "Dashboards"
+        ]
+      },
+      "avancado": {
+        "price": 9990,
+        "label": "Avançado",
+        "lines": [
+          "Pipeline",
+          "CRM",
+          "Automações",
+          "Dashboards",
+          "SLAs",
+          "Governança"
+        ]
+      }
+    },
+    "notes": "Setup pontual que pode evoluir para RevOps recorrente.",
+    "next": [
+      "R07",
+      "R09",
+      "R10"
+    ]
+  },
+  {
+    "id": "P13",
+    "type": "pontual",
+    "name": "Rituals Sprint",
+    "territory": "gestao",
+    "tag": "Instalar cadência",
+    "desc": "Sprint para desenhar e instalar Daily, Weekly, Monthly, 1:1, All Hands, QBR, templates, responsáveis e KPIs.",
+    "when": [
+      "Empresa sem cadência",
+      "Reuniões sem decisão",
+      "Prioridades mudam",
+      "Indicadores não viram ação"
+    ],
+    "impact": [
+      "Ritmo de execução",
+      "Accountability",
+      "Decisão mais rápida",
+      "Gestão por indicadores"
+    ],
+    "why": "Venda quando o cliente precisa instalar rapidamente uma cadência antes de contratar facilitação recorrente.",
+    "talk": "Vamos desenhar os rituais certos, com pauta, cadência, responsáveis e indicadores, para transformar reunião em execução.",
+    "plans": {
+      "basico": {
+        "price": 2490,
+        "label": "Básico",
+        "lines": [
+          "4h",
+          "Rituais essenciais"
+        ]
+      },
+      "medio": {
+        "price": 4490,
+        "label": "Médio",
+        "lines": [
+          "8h",
+          "Rituais",
+          "Templates",
+          "KPIs"
+        ]
+      },
+      "avancado": {
+        "price": 6990,
+        "label": "Avançado",
+        "lines": [
+          "16h",
+          "Sistema completo",
+          "Responsáveis",
+          "Governança inicial"
+        ]
+      }
+    },
+    "notes": "Converte naturalmente para Rituals as a Service.",
+    "next": [
+      "R09",
+      "R08",
+      "R10"
+    ]
+  },
+  {
+    "id": "P14",
+    "type": "pontual",
+    "name": "Culture & People Sprint",
+    "territory": "gestao",
+    "tag": "Estruturar pessoas",
+    "desc": "Sprint para organizar organograma, papéis, scorecards, cultura, rituais, avaliações, 1:1 e desenvolvimento.",
+    "when": [
+      "Empresa cresceu e pessoas não acompanharam",
+      "Papéis sobrepostos",
+      "Cultura depende do fundador",
+      "Avaliação de performance inexistente"
+    ],
+    "impact": [
+      "Clareza organizacional",
+      "Melhor performance",
+      "Cultura mais explícita",
+      "Gestores mais preparados"
+    ],
+    "why": "Venda quando a empresa precisa reorganizar a máquina humana para sustentar o próximo estágio de crescimento.",
+    "talk": "Vamos estruturar papéis, performance, cultura e desenvolvimento para que o crescimento não dependa de improviso.",
+    "plans": {
+      "basico": {
+        "price": 3490,
+        "label": "Básico",
+        "lines": [
+          "Estrutura",
+          "Papéis",
+          "Scorecards"
+        ]
+      },
+      "medio": {
+        "price": 5990,
+        "label": "Médio",
+        "lines": [
+          "Estrutura",
+          "Cultura",
+          "Rituais",
+          "Avaliações"
+        ]
+      },
+      "avancado": {
+        "price": 8990,
+        "label": "Avançado",
+        "lines": [
+          "Organograma",
+          "Papéis",
+          "Scorecards",
+          "Cultura",
+          "Rituais",
+          "Avaliações",
+          "1:1",
+          "Desenvolvimento"
+        ]
+      }
+    },
+    "notes": "Pode evoluir para People & Performance.",
+    "next": [
+      "R08",
+      "P15",
+      "R09"
+    ]
+  },
+  {
+    "id": "P15",
+    "type": "pontual",
+    "name": "Leadership Bootcamp",
+    "territory": "gestao",
+    "tag": "Liderança que executa",
+    "desc": "Bootcamp para sócios, coordenadores, gerentes e líderes em gestão, delegação, feedback, metas e performance.",
+    "when": [
+      "Líderes centralizadores",
+      "Delegação ruim",
+      "Feedback inexistente",
+      "Metas não viram rotina",
+      "Gestores recém-promovidos"
+    ],
+    "impact": [
+      "Gestores melhores",
+      "Mais autonomia",
+      "Cobrança mais clara",
+      "Performance consistente"
+    ],
+    "why": "Venda quando a limitação está na capacidade da liderança de transformar meta em execução através do time.",
+    "talk": "Vamos desenvolver liderança prática em delegação, cobrança, feedback, metas, performance e rituais.",
+    "plans": {
+      "basico": {
+        "price": 2490,
+        "label": "Básico",
+        "lines": [
+          "4h"
+        ]
+      },
+      "medio": {
+        "price": 4490,
+        "label": "Médio",
+        "lines": [
+          "8h"
+        ]
+      },
+      "avancado": {
+        "price": 6990,
+        "label": "Avançado",
+        "lines": [
+          "16h",
+          "Plano prático de aplicação"
+        ]
+      }
+    },
+    "notes": "Pode evoluir para People & Performance ou Growth Advisor.",
+    "next": [
+      "R08",
+      "R10",
+      "R09"
+    ]
+  }
+]
