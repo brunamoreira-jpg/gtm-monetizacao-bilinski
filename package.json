@@ -1,0 +1,16 @@
+{
+  "name": "gtm-monetizacao-bilinski",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "latest",
+    "tailwindcss": "latest",
+    "vite": "latest",
+    "vite-plugin-singlefile": "latest"
+  }
+}

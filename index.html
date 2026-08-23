@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="pt-BR" class="bg-black text-white antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="GTM Monetização Bilinski&Co. Revenue Performance System." />
+    <title>GTM Monetização | Bilinski&Co.</title>
+  </head>
+  <body class="min-h-screen overflow-x-hidden bg-black text-white">
+    <div id="scrollProgress" class="fixed left-0 top-0 z-[100] h-[2px] w-0 bg-v4-red"></div>
+
+    <header id="siteHeader" class="site-header">
+      <div class="layout-shell flex h-full items-center justify-between gap-8">
+        <a href="#top" class="flex min-w-0 items-center gap-5" aria-label="Ir para o início">
+          <img id="v4Logo" class="h-6 w-auto shrink-0 sm:h-7" alt="V4 Company" />
+          <span class="hidden h-5 w-px bg-white/15 sm:block"></span>
+          <span class="hidden text-[11px] font-semibold uppercase tracking-[0.22em] text-white/70 sm:block">Bilinski&Co.</span>
+        </a>
+
+        <nav class="hidden items-center gap-8 lg:flex" aria-label="Navegação principal">
+          <a class="nav-link" href="#portfolio">Portfólio</a>
+          <a class="nav-link" href="#journey">Journey Builder</a>
+          <a class="nav-link" href="#diagnostico">Diagnóstico</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <button id="searchOpen" class="header-action" type="button" aria-label="Buscar produtos">
+            <span class="hidden sm:inline">Buscar</span>
+            <span class="text-base leading-none">⌕</span>
+          </button>
+          <button id="menuOpen" class="header-action lg:hidden" type="button" aria-label="Abrir menu">Menu</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero-section relative min-h-[100svh] overflow-hidden">
+        <img id="heroImage" class="absolute inset-0 h-full w-full object-cover object-[62%_50%] md:object-center" alt="Carro de corrida vermelho em ambiente escuro" />
+        <div class="hero-overlay absolute inset-0"></div>
+        <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black to-transparent"></div>
+
+        <div class="layout-shell relative z-10 flex min-h-[100svh] flex-col justify-end pb-20 pt-44 sm:pb-24 sm:pt-48 lg:pb-24 lg:pt-56">
+          <div class="max-w-[760px]">
+            <div class="mb-7 flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.24em] text-white/55">
+              <span class="h-[2px] w-9 bg-v4-red"></span>
+              Revenue Performance System
+            </div>
+            <h1 class="display-title max-w-[720px] text-[clamp(4.7rem,10vw,10.5rem)] leading-[0.76]">
+              GTM<br><span class="text-v4-red">Monetização</span>
+            </h1>
+            <p class="mt-9 max-w-[560px] text-[17px] leading-7 text-white/68 sm:text-[19px] sm:leading-8">
+              Produtos construídos para destravar, sustentar e expandir receita com uma rota clara para cada oportunidade do cliente.
+            </p>
+            <div class="mt-10 flex flex-wrap items-center gap-5">
+              <a href="#portfolio" class="primary-cta">Explorar portfólio <span>↘</span></a>
+              <a href="#journey" class="secondary-cta">Montar uma jornada</a>
+            </div>
+          </div>
+
+          <div class="mt-20 flex items-end justify-between border-t border-white/12 pt-6 text-[10px] font-semibold uppercase tracking-[0.2em] text-white/38 sm:mt-24">
+            <span>01 / Acquire · Convert · Retain · Expand · Operate</span>
+            <span class="hidden md:block">Scroll para explorar</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="territorios" class="section-space bg-black">
+        <div class="layout-shell">
+          <div class="section-intro">
+            <div>
+              <div class="eyebrow">Mapa da receita</div>
+              <h2 class="section-title mt-5">Onde a receita está travada?</h2>
+            </div>
+            <p class="section-copy">Escolha um território para filtrar o portfólio. Cada área representa um ponto diferente da jornada de crescimento.</p>
+          </div>
+
+          <div id="territoryRail" class="mt-14 border-y border-white/12 sm:mt-16"></div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section-space bg-[#050505]">
+        <div class="layout-shell">
+          <div class="section-intro items-end">
+            <div>
+              <div class="eyebrow">Product portfolio</div>
+              <h2 class="section-title mt-5">Escolha a <span class="text-v4-red">intervenção.</span></h2>
+            </div>
+            <p class="section-copy">Uma única área para explorar produtos recorrentes e pontuais. Black Friday está integrada ao catálogo como P08 sazonal.</p>
+          </div>
+
+          <div class="mt-12 border-y border-white/12 py-6 sm:mt-16 sm:py-7">
+            <div class="flex flex-col gap-6 xl:flex-row xl:items-center xl:justify-between">
+              <div class="flex flex-wrap items-center gap-x-2 gap-y-3" id="typeFilters" aria-label="Filtro por tipo">
+                <button class="filter-pill is-active" data-type="all" type="button">Todos</button>
+                <button class="filter-pill" data-type="recorrente" type="button">Recorrentes</button>
+                <button class="filter-pill" data-type="pontual" type="button">Pontuais</button>
+              </div>
+
+              <div class="flex min-w-0 flex-col gap-4 md:flex-row md:items-center">
+                <div id="territoryFilters" class="flex max-w-full gap-1 overflow-x-auto pb-1 md:pb-0" aria-label="Filtro por território"></div>
+                <label class="portfolio-search">
+                  <span class="sr-only">Buscar no portfólio</span>
+                  <input id="portfolioSearch" type="search" placeholder="Buscar produto, dor ou oportunidade" autocomplete="off" />
+                  <span>⌕</span>
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-3 flex items-center justify-between py-5 text-[10px] font-semibold uppercase tracking-[0.18em] text-white/35">
+            <span id="portfolioCount">25 produtos</span>
+            <button id="clearFilters" class="transition hover:text-white" type="button">Limpar filtros</button>
+          </div>
+
+          <div id="productList" class="border-t border-white/12"></div>
+          <div id="productEmpty" class="hidden py-20 text-center text-sm text-white/50">Nenhum produto encontrado com esses filtros.</div>
+          <div class="mt-8 flex justify-center">
+            <button id="showAllProducts" class="secondary-cta hidden" type="button">Ver todos os produtos</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="journey" class="section-space bg-black">
+        <div class="layout-shell">
+          <div class="section-intro">
+            <div>
+              <div class="eyebrow">Journey Builder</div>
+              <h2 class="section-title mt-5">Destravar. Sustentar. <span class="text-v4-red">Expandir.</span></h2>
+            </div>
+            <p class="section-copy">Escolha a trava e o nível de intervenção. A rota aparece imediatamente ao lado, sem exigir scroll para descobrir o resultado.</p>
+          </div>
+
+          <div class="journey-workspace mt-14 lg:mt-16">
+            <div class="journey-controls lg:pr-12">
+              <div class="flex items-center justify-between gap-6 border-b border-white/12 pb-5">
+                <div>
+                  <span class="micro-label">01 · Diagnóstico</span>
+                  <h3 class="mt-2 text-xl font-semibold tracking-[-0.02em]">Qual é a trava principal?</h3>
+                </div>
+              </div>
+              <div id="painList" class="mt-2"></div>
+
+              <div class="mt-10 border-t border-white/12 pt-8">
+                <span class="micro-label">02 · Nível de intervenção</span>
+                <div id="levelTabs" class="level-control mt-5" role="group" aria-label="Nível de intervenção">
+                  <button data-level="basico" type="button">Básico</button>
+                  <button data-level="medio" type="button" class="is-active">Médio</button>
+                  <button data-level="avancado" type="button">Avançado</button>
+                </div>
+                <p id="levelHelp" class="mt-4 max-w-[520px] text-sm leading-6 text-white/45">Equilíbrio entre profundidade, velocidade e capacidade de execução.</p>
+              </div>
+            </div>
+
+            <div class="journey-result lg:pl-12">
+              <div class="sticky top-28">
+                <div class="flex items-center justify-between gap-4 border-b border-white/12 pb-5">
+                  <div>
+                    <span class="micro-label">Sua rota de monetização</span>
+                    <p id="routeHint" class="mt-2 max-w-[540px] text-sm leading-6 text-white/50"></p>
+                  </div>
+                  <button id="copyRoute" class="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/45 transition hover:text-white" type="button">Copiar rota</button>
+                </div>
+
+                <div id="routeSteps" class="route-steps mt-2"></div>
+
+                <div class="route-summary mt-8 border-t border-white/12 pt-7">
+                  <div><span>Pontual</span><strong id="routeOneOff">R$ 0</strong></div>
+                  <div><span>MRR potencial</span><strong id="routeMrr" class="text-v4-red">R$ 0</strong></div>
+                  <div><span>Valor em 90 dias</span><strong id="route90">R$ 0</strong></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="diagnostico" class="section-space bg-[#050505]">
+        <div class="layout-shell">
+          <div class="diagnostic-layout">
+            <div class="max-w-[620px]">
+              <div class="eyebrow">Diagnóstico rápido</div>
+              <h2 class="section-title mt-5">Ainda não sabe por <span class="text-v4-red">onde começar?</span></h2>
+              <p class="mt-7 max-w-[560px] text-base leading-7 text-white/55">Escolha o cenário que mais se aproxima do cliente. A plataforma recomenda a primeira intervenção e a sequência de expansão.</p>
+            </div>
+
+            <div class="diagnostic-panel">
+              <label class="micro-label" for="diagSelect">Cenário do cliente</label>
+              <select id="diagSelect" class="diag-select mt-4"></select>
+
+              <div id="diagResult" class="mt-10 border-t border-white/12 pt-8">
+                <span class="micro-label">Comece por</span>
+                <button id="diagProduct" class="mt-3 block text-left text-[clamp(2.1rem,4vw,4rem)] font-black uppercase leading-[0.9] tracking-[-0.04em] transition hover:text-v4-red" type="button"></button>
+                <p id="diagCopy" class="mt-6 max-w-[520px] text-sm leading-6 text-white/55"></p>
+                <div class="mt-7 border-l-2 border-v4-red pl-5">
+                  <span class="micro-label">Depois expanda para</span>
+                  <p id="diagRoute" class="mt-2 text-sm leading-6 text-white/70"></p>
+                </div>
+                <button id="diagSendBuilder" class="primary-cta mt-8" type="button">Abrir no Journey Builder <span>↗</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="relative overflow-hidden bg-black py-28 sm:py-36 lg:py-44">
+        <img id="ctaImage" class="absolute inset-0 h-full w-full object-cover object-center opacity-30 grayscale" alt="Carro de corrida em pista" />
+        <div class="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-black/55"></div>
+        <div class="layout-shell relative z-10">
+          <div class="max-w-[820px]">
+            <div class="eyebrow">Próxima oportunidade</div>
+            <h2 class="mt-6 text-[clamp(3.8rem,8vw,8rem)] font-black uppercase leading-[0.82] tracking-[-0.055em]">Encontre a rota.<br><span class="text-v4-red">Acelere a receita.</span></h2>
+            <a href="#journey" class="primary-cta mt-10">Montar jornada <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-white/10 bg-black py-10">
+      <div class="layout-shell flex flex-col gap-6 text-[10px] font-semibold uppercase tracking-[0.18em] text-white/35 sm:flex-row sm:items-center sm:justify-between">
+        <span>V4 Company · Bilinski&Co.</span>
+        <span>GTM Monetização · Revenue Performance System</span>
+        <span>2026</span>
+      </div>
+    </footer>
+
+    <div id="drawerScrim" class="drawer-scrim" aria-hidden="true"></div>
+    <aside id="productDrawer" class="product-drawer" aria-label="Detalhes do produto" aria-hidden="true">
+      <div class="drawer-header">
+        <span id="drawerMeta" class="micro-label"></span>
+        <button id="drawerClose" class="drawer-close" type="button" aria-label="Fechar detalhes">Fechar ×</button>
+      </div>
+      <div id="drawerContent" class="drawer-content"></div>
+    </aside>
+
+    <div id="searchModal" class="search-modal" aria-hidden="true">
+      <div class="search-shell">
+        <div class="flex items-center gap-4 border-b border-white/14 pb-5">
+          <span class="text-xl text-v4-red">⌕</span>
+          <input id="globalSearch" class="w-full bg-transparent text-xl font-semibold outline-none placeholder:text-white/25" placeholder="Busque por produto, dor, CRM, churn, Black Friday..." />
+          <button id="searchClose" class="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/45 hover:text-white" type="button">Esc</button>
+        </div>
+        <div id="searchResults" class="mt-3 max-h-[62vh] overflow-y-auto"></div>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <div class="layout-shell flex h-full flex-col py-6">
+        <div class="flex items-center justify-between">
+          <span class="micro-label">Navegação</span>
+          <button id="menuClose" class="header-action" type="button">Fechar ×</button>
+        </div>
+        <nav class="mt-20 flex flex-col" aria-label="Navegação mobile">
+          <a class="mobile-nav-link" href="#portfolio">Portfólio</a>
+          <a class="mobile-nav-link" href="#journey">Journey Builder</a>
+          <a class="mobile-nav-link" href="#diagnostico">Diagnóstico</a>
+        </nav>
+      </div>
+    </div>
+
+    <div id="routeSheetScrim" class="sheet-scrim" aria-hidden="true"></div>
+    <section id="routeSheet" class="route-sheet" aria-label="Rota de monetização mobile" aria-hidden="true">
+      <div class="mx-auto mt-3 h-1 w-10 rounded-full bg-white/20"></div>
+      <div class="px-5 pb-8 pt-6">
+        <div class="flex items-start justify-between gap-4 border-b border-white/12 pb-5">
+          <div>
+            <span class="micro-label">Sua rota</span>
+            <h3 id="sheetTitle" class="mt-2 text-xl font-semibold"></h3>
+          </div>
+          <button id="sheetClose" class="text-sm text-white/50" type="button">Fechar ×</button>
+        </div>
+        <div id="sheetSteps" class="mt-2"></div>
+        <div id="sheetSummary" class="mt-7 border-t border-white/12 pt-6"></div>
+      </div>
+    </section>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
